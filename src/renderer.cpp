@@ -446,8 +446,8 @@ std::string exportRender(std::string resultpath, std::vector<nodeInfo> &nodes, b
     else
     {
         if(export_as_new_style)
-            traffic += "Time used : " + secondToString(test_duration) + ". ";
-        traffic += "Working Node(s) : [" + std::to_string(onlines) + "/" + std::to_string(node_count) + "]";
+            traffic += "测速用时 : " + secondToString(test_duration) + ". ";
+        traffic += "可用节点 : [" + std::to_string(onlines) + "/" + std::to_string(node_count) + "]";
     }
 
     final_width = total_width;
@@ -618,8 +618,8 @@ std::string exportRender(std::string resultpath, vector<nodeInfo> nodes, bool ex
         sort(nodes.begin(), nodes.end(), comparer);//sort by export_sort_method
 
     //add title line into the list
-    node.group = "Group";
-    node.remarks = "Remarks";
+    node.group = "组名";
+    node.remarks = "节点";
     node.pkLoss = "Pk.Loss";
     node.avgPing = "TCP Ping";
     //node.sitePing = "Bing Ping";
