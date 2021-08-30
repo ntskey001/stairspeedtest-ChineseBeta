@@ -1,5 +1,5 @@
 # Stair Speedtest Reborn 中文Beta修改版
-Fork From [tindy2013/stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)
+请转到 [ntskey/StairSpeedtestChinese](https://github.com/ntskey/stairspeedtestChinese)
 ## 本版本与原版的不同
 1.修改了WebGUI文件
 
